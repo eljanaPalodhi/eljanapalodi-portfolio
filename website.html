@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="/src/style.css" />
     <title>eljanapalodhi-porfolio</title>
     <style>
+      @media screen and (max-width: 800px) {
+        .grid-4-columns {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
       section {
         max-width: 1200px;
         margin: 0 auto;
@@ -27,12 +32,9 @@
         display: grid;
         grid-gap: 60px;
       }
-      .grid-2-columns {
-        grid-template-columns: 1fr 1fr;
-      }
 
       .grid-4-columns {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
       }
 
       .card {

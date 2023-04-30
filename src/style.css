@@ -4,15 +4,12 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
   body {
     background-color: #adaba96b;
   }
   .contact-button {
     background-color: #adaba96b;
-  }
-  .grid-4-columns {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -20,8 +17,11 @@ body {
   .selfimage {
     position: top;
   }
+}
+
+@media screen and (min-width: 900px) {
   .grid-4-columns {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -51,9 +51,6 @@ h3 {
   margin-top: 40px;
 }
 
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-}
 footer {
   margin-top: 200px;
 }
