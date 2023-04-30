@@ -20,6 +20,9 @@ body {
   .selfimage {
     position: top;
   }
+  .grid-4-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 .selfimage {
